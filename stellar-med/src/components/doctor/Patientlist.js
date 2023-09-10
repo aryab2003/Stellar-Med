@@ -10,7 +10,7 @@ import { db } from "../../firebase";
 export default function Patientlist() {
   const location = useLocation();
 
-  const email = location.state ? location.state.token : null;
+  const email = new URLSearchParams(location.search).get("email");
 
   const [undertakingPatients, setUndertakingPatients] = useState([]);
 
