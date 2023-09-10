@@ -10,7 +10,6 @@ Remote patient monitoring is becoming increasingly important, especially in situ
 * Machine learning models for predictive analysis and early detection of health issues.
 * Secure and compliant data storage.
 * Customizable alerts and notifications for healthcare providers.
-* Patient-friendly mobile app for easy data submission and interaction.
 * User-friendly web-based dashboard for healthcare providers.
 
 
