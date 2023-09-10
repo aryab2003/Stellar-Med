@@ -17,8 +17,10 @@ function App() {
         <Route exact path="/" element={<Landingpage/>}/>
         <Route exact path="/Signin" element={<Signin/>}/>
         <Route exact path="/Patientdashboard" element={<Patientdashboard/>}/>
+        <Route exact path="/Doctordashboard" element={<Doctordasboard/>}/>
         <Route exact path="/Patientlist" element={<Patientlist/>}/>
         <Route exact path="/Patientinfo" element={<Patientinfo/>}/>
+
       </Routes>
       </BrowserRouter>
       </>
