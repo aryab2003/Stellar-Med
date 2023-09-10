@@ -12,8 +12,6 @@ const user = {
   }
   const navigation = [
     { name: 'Dashboard', href: '#', current: true },
-    { name: 'Reports', href: '#', current: false },
-    { name: 'History', href: '#', current: false },
   ]
   const userNavigation = [
     { name: 'Dr. Sharma', href: '#' },
@@ -47,8 +45,8 @@ export default function Navbar() {
                   <div className="flex items-center">
                     <div className="flex-shrink-0">
                       <img
-                        className="h-8 w-8"
-                        src="https://icon-library.com/images/hospital-icon/hospital-icon-6.jpg"
+                        className="rounded-xl h-16 w-25"
+                        src="https://i.ibb.co/3cQWcLT/Whats-App-Image-2023-09-10-at-9-41-19-AM.jpg"
                         alt=""
                       />
                     </div>
@@ -71,8 +69,6 @@ export default function Navbar() {
                         ))}
                         </div>
                     </div>
-                    <h1>Calender</h1>
-          
                   </div>
                   <button 
                     className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"

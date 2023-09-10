@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="mb-6 md:mb-0">
               <a href="#" className="flex items-center">
                   <img src="https://logowik.com/content/uploads/images/130_who_logo.jpg" className="h-8 mr-3" alt="" />
-                  <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Arya Foundation</span>
+                  <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Stellar-Med</span>
               </a>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">

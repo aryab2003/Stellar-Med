@@ -51,7 +51,9 @@ export default function Patientdashboard() {
                       </div>
                </div>
                <div className="container bg-slate-300 h-3/4 w-3/4 mx-8 my-5 rounded-xl">
+                <div className="container mx-3 my-3">
                <Report data={id}/>
+               </div>
                </div>
           </div>
 

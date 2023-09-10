@@ -54,7 +54,7 @@ export default function Doctornavbar(props) {
                   <div className="flex-shrink-0">
                     <img
                       className="rounded-full h-16 w-16 flex items-center justify-center"
-                      src="https://icon-library.com/images/hospital-icon/hospital-icon-6.jpg"
+                      src="https://i.ibb.co/3cQWcLT/Whats-App-Image-2023-09-10-at-9-41-19-AM.jpg"
                       alt="Your Company"
                     />
                   </div>
