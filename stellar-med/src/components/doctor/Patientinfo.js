@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useLocation } from "react-router-dom";
 import Doctorchat from "./Doctor-Chat/Doctorchat";
 import { Link } from "react-router-dom";
-
+import Report from "../reports/Report";
 export default function Patientinfo() {
   const [showChat, setShowChat] = useState(false);
 
@@ -47,7 +47,7 @@ export default function Patientinfo() {
                             <div className="font-mono">
                             <h1 >Patient Name : P1</h1>
                             <h1>Age : 18 </h1>
-                            <h1>Sex : nhi mila</h1>
+                            <h1>Sex : Male</h1>
                             </div>
                         </div>
 
@@ -60,7 +60,7 @@ export default function Patientinfo() {
                       </div>
                </div>
                <div className="container bg-slate-300 h-5/6 w-3/4 mx-8 my-5 rounded-xl">
-
+                  <div className="mx-3 my-3"><Report data={id}/> </div>
                </div>
           </div>
       </div>
