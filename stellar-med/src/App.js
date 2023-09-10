@@ -22,6 +22,7 @@ function App() {
         <Route exact path="/Doctordashboard" element={<Doctordasboard/>}/>
         <Route exact path="/Patientlist" element={<Patientlist/>}/>
         <Route exact path="/Patientinfo" element={<Patientinfo/>}/>
+
       </Routes>
       </BrowserRouter>
       </>

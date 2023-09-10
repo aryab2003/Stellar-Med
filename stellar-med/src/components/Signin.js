@@ -58,7 +58,7 @@ export default function Signin() {
       if(await checkDoc(email)===true){
           signInWithEmailAndPassword(auth,email,password)
           .then((userCredential)=>{
-          navigate(`/Patientlist`,{state:{token:email}})
+          navigate(`/Doctordashboard`,{state:{token:email}})
         }).catch((error)=>{
           console.log(error)
         })
