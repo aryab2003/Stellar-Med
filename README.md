@@ -1,8 +1,8 @@
 # Stellar-Med
 # Introduction
-Welcome to the Remote Patient Monitoring System with Machine Learning Models project! This project is designed to facilitate remote patient monitoring, enabling healthcare providers to collect and analyze patient data in real-time. By leveraging machine learning models, this system aims to improve patient care by predicting health issues, optimizing treatment plans, and reducing hospital readmissions.
+Welcome to the <ins>Remote Patient Monitoring System</ins> with Machine Learning Models project! This project is designed to facilitate remote patient monitoring, enabling healthcare providers to <ins>collect and analyze patient data in real-time.</ins> By leveraging <ins>machine learning models</ins>, this system aims to improve patient care by predicting health issues, optimizing treatment plans, and reducing hospital readmissions.
 
-Remote patient monitoring is becoming increasingly important, especially in situations where physical visits to healthcare facilities are challenging or not possible. This project offers a comprehensive solution for healthcare providers to remotely track patient vital signs, detect anomalies, and intervene proactively when and wherever necessary.
+Remote patient monitoring is becoming increasingly important, especially in situations where physical visits to healthcare facilities are challenging or not possible. This project offers a comprehensive solution for <ins>healthcare providers to remotely track patient vital signs, detect anomalies, and intervene proactively when and wherever necessary.</ins>
 
 # Features 
 * Real-time monitoring of patient vital signs and health data.
