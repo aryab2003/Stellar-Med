@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import Doctorinput from "./Doctorinput";
-import { doc, collection, getDocs, query, orderBy, limit ,startAfter} from "firebase/firestore";
+import { doc, collection, getDocs, query, orderBy} from "firebase/firestore";
 import { db, auth } from "../../../firebase";
 
 export default function Doctorchat(props) {
@@ -44,8 +44,6 @@ export default function Doctorchat(props) {
         console.error("Error fetching messages:", error);
       }
     };
-   
-    console.log(messages)
     // Call fetchMessages when the component mounts
     fetchMessages();
   }, [props.data, lastVisible]);

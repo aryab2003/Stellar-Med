@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useState } from 'react';
-import { EmailAuthCredential, signInWithEmailAndPassword } from 'firebase/auth';
+import { signInWithEmailAndPassword } from 'firebase/auth';
 import {auth} from '../firebase.js';
 import { db } from '../firebase.js';
-import { collection, query ,where,getDocs,once} from 'firebase/firestore';
+import { collection ,getDocs} from 'firebase/firestore';
 import {useNavigate} from 'react-router-dom';
 import background from "../goodbg.jpg";
 
@@ -103,7 +103,7 @@ let box = {
             Sign in to your account
           </h2>
         </div>
-        <div className=" flex justify-center flex  m-auto  ">
+        <div className=" justify-center flex  m-auto  ">
         <div className="flex  items-center my-0">
         <input
           id="default-radio-1"
@@ -120,7 +120,7 @@ let box = {
           <img
         className="h-20 w-full rounded-lg object-cover object-center"
         src="https://cdn-icons-png.flaticon.com/512/3774/3774299.png"
-        alt="nature image"
+        alt="nature"
       />
         </label>
       </div>
@@ -140,7 +140,7 @@ let box = {
            <img
         className="h-20 w-full rounded-lg object-cover object-center"
         src="https://cdn-icons-png.flaticon.com/512/2854/2854581.png"
-        alt="nature image"
+        alt="nature"
       />
         </label>
         </div>
@@ -171,7 +171,7 @@ let box = {
                   Password
                 </label>
                 <div className="text-sm">
-                  <a href="#" className="font-semibold text-indigo-600 hover:text-indigo-500">
+                  <a href="https://portfolio-nextjs-prisma.vercel.app/" className="font-semibold text-indigo-600 hover:text-indigo-500">
                     Forgot password?
                   </a>
                 </div>

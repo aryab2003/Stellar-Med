@@ -1,17 +1,18 @@
 import React from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebase";
 import { useNavigate } from "react-router-dom";
 import { useState,useEffect } from "react";
+
 const user = {
   name: "DocorJi",
   email: "primeDoctor@example.com",
   imageUrl:
     "https://png.pngtree.com/png-clipart/20200225/original/pngtree-doctor-icon-circle-png-image_5281907.jpg",
 };
-let patientURL = ``;
+
 const navigation = [
   { name: "Dashboard", href: "/Doctordashboard", current: true },
   { name: "Patients", href: "/Patientlist", current: false },

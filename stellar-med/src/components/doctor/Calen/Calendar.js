@@ -3,8 +3,7 @@ import React, { useState } from "react";
 import { generateDate, months } from "./util/calendar";
 import cn from "./util/cn";
 import { GrFormNext, GrFormPrevious } from "react-icons/gr";
-import { Navigate, useNavigate } from "react-router-dom";
-import Patientlist from '../Patientlist';
+import { useNavigate } from "react-router-dom";
 
 export default function Calendar() {
   const days = ["S", "M", "T", "W", "T", "F", "S"];

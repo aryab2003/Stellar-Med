@@ -18,11 +18,11 @@ export default function Patientchat(props) {
         messageFlagRef.current = messageRef; // Store the value in the ref
 
         // Create a query for messages, ordered by createdAt, limited to a certain number
-        const q = query(messageRef, orderBy("createdAt"), limit(10));
+        let q = query(messageRef, orderBy("createdAt"), limit(10));
 
         if (lastVisible) {
           // If there's a lastVisible, start the query after it
-          q = startAfter(q, lastVisible);
+           q = startAfter(q, lastVisible);
         }
 
         const snapshot = await getDocs(q);
